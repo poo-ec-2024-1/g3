@@ -41,3 +41,6 @@ Realizar testes extensivos em cada módulo do sistema para garantir a correção
 - **Icaro Pereira de Sá:** Testador
 - **Heitor de Angelis:** Desenvolvedor frontend
 - **Pedro Augusto:** Líder
+
+## Instalação do StarUML
+- Recomenda-se o uso do StarUML para abrir o arquivo .mdj que se refere ao diagrama de classes [link do StarUML](https://staruml.io/).
