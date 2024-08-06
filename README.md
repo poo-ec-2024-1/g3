@@ -47,3 +47,6 @@ Realizar testes extensivos em cada módulo do sistema para garantir a correção
 
 ## Instalação do StarUML
 - Recomenda-se o uso do StarUML para abrir o arquivo .mdj que se refere ao diagrama de classes, diagrama de sequência e diagramas de caso de uso. [link do StarUML](https://staruml.io/).
+
+## Execução do projeto 
+- Já com a IDE e Java em sua máquina local abra a pasta "Projeto" no BlueJ e, seguida compile o programa, clique com o botao direito do mouse na classe "MainJavaFX" e escolha a primeria opção "Executar aplicação JavaFX".
