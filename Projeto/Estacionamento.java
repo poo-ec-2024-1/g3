@@ -6,7 +6,7 @@ public class Estacionamento {
     private List<Vaga> vagas;
     private List<Ticket> tickets;
     private CalculadoraTarifa calculadoraTarifa;
-
+    //Matriz de vagas, que representa cada vaga do estacionamento, sendo previamente inicializada como falso.
     public Estacionamento(int numeroDeVagas) {
         vagas = new ArrayList<>();
         for (int i = 1; i <= numeroDeVagas; i++) {
@@ -15,7 +15,7 @@ public class Estacionamento {
         tickets = new ArrayList<>();
         calculadoraTarifa = new CalculadoraTarifa();
     }
-
+    //Ticket de preço/tarifa.
     public Ticket estacionarVeiculo(Veiculo veiculo) {
         for (Vaga vaga : vagas) {
             if (!vaga.isOcupada()) {

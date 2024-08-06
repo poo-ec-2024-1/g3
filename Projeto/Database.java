@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
-
+//Data base do sistema todo.
 public class Database<T> {
     private String fileName;
 

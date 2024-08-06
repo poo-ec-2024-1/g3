@@ -3,7 +3,7 @@ import java.util.Map;
 public class CadastroVeiculo {
     private Map<String, Veiculo> veiculos;
     private Database<Veiculo> database;
-    
+    //Envia o cadastro do veículo e manda para a database.
     public CadastroVeiculo(String fileName) {
         database = new Database<>(fileName);
         veiculos = database.carregarDados();
