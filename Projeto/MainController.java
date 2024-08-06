@@ -1,7 +1,12 @@
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.TextInputDialog;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.fxml.FXMLLoader;
@@ -25,9 +30,43 @@ public class MainController {
     @FXML
     private Button cadastrarVeiculoButton;
 
+    @FXML
+    private TableView<VeiculoInfo> tableView;
+
+    @FXML
+    private TableColumn<VeiculoInfo, String> colVaga;
+
+    @FXML
+    private TableColumn<VeiculoInfo, String> colNome;
+
+    @FXML
+    private TableColumn<VeiculoInfo, String> colTelefone;
+
+    @FXML
+    private TableColumn<VeiculoInfo, String> colPlaca;
+
+    @FXML
+    private TableColumn<VeiculoInfo, String> colModelo;
+
+    @FXML
+    private TableColumn<VeiculoInfo, String> colCor;
+
+    private ObservableList<VeiculoInfo> veiculoData = FXCollections.observableArrayList();
+
     private Estacionamento estacionamento = new Estacionamento(10); // 10 vagas
     private CadastroUsuario cadastroUsuario = new CadastroUsuario("usuarios.dat");
     private CadastroVeiculo cadastroVeiculo = new CadastroVeiculo("veiculos.dat");
+
+    @FXML
+    public void initialize() {
+        colVaga.setCellValueFactory(new PropertyValueFactory<>("vaga"));
+        colNome.setCellValueFactory(new PropertyValueFactory<>("nome"));
+        colTelefone.setCellValueFactory(new PropertyValueFactory<>("telefone"));
+        colPlaca.setCellValueFactory(new PropertyValueFactory<>("placa"));
+        colModelo.setCellValueFactory(new PropertyValueFactory<>("modelo"));
+        colCor.setCellValueFactory(new PropertyValueFactory<>("cor"));
+        tableView.setItems(veiculoData);
+    }
 
     @FXML
     private void handleEstacionarVeiculo() throws IOException {
@@ -46,6 +85,18 @@ public class MainController {
             }
             Ticket ticket = estacionamento.estacionarVeiculo(veiculo);
             if (ticket != null) {
+                // Adicionar informação ao TableView
+                Usuario usuario = cadastroUsuario.buscarUsuarioPorPlaca(placa);
+                if (usuario != null) {
+                    veiculoData.add(new VeiculoInfo(
+                        String.valueOf(ticket.getVaga().getNumero()),
+                        usuario.getNome(),
+                        usuario.getContato(),
+                        veiculo.getPlaca(),
+                        veiculo.getModelo(),
+                        veiculo.getCor()
+                    ));
+                }
                 mostrarAlerta("Sucesso", "Veículo estacionado na vaga " + ticket.getVaga().getNumero());
             } else {
                 mostrarAlerta("Erro", "Sem vagas disponíveis.");
@@ -72,6 +123,7 @@ public class MainController {
             }
             if (ticketEncontrado != null) {
                 double tarifa = estacionamento.retirarVeiculo(ticketEncontrado);
+                veiculoData.removeIf(info -> info.getPlaca().equals(placaRetirada));
                 mostrarAlerta("Sucesso", "Veículo retirado. Tarifa total: R$" + tarifa);
             } else {
                 mostrarAlerta("Erro", "Veículo não encontrado.");
