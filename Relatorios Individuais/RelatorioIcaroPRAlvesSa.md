@@ -26,9 +26,9 @@
 - Execução de testes.
 
 ### Lista dos 3 commits, posts, documentos mais relevantes
-1. **Commit**: "Adicionando a pasta relatório dos testes"
-2. **Commit**: "Adicionando testes unitários.."
-3. **Commit**: "Commit"OBS.:Atualizando código do backend
+1. **Commit**: "Adicionando a pasta relatório dos testes" https://github.com/poo-ec-2024-1/g3/commit/5f8c2a4648bb7b0f12fdcbe6da5274e79f24cb0a
+2. **Commit**: "Adicionando testes unitários.." 
+3. **Commit**: "Commit"OBS.:Atualizando código do backend  https://github.com/poo-ec-2024-1/g3/commit/63cda9de836c2ffa15da16f8f3aebba730523abf
 
 ### O que não deu para cumprir
 - Implementação de validações e tratamento de erros mais complexos.
