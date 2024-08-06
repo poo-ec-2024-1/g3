@@ -6,7 +6,7 @@ public class Estacionamento {
     private List<Vaga> vagas;
     private List<Ticket> tickets;
     private CalculadoraTarifa calculadoraTarifa;
-    //Array list que gera as vagas do estacionamento com valores de ocupado, previamente falsos.
+
     public Estacionamento(int numeroDeVagas) {
         vagas = new ArrayList<>();
         for (int i = 1; i <= numeroDeVagas; i++) {
@@ -25,7 +25,7 @@ public class Estacionamento {
                 return ticket;
             }
         }
-        return null; // Sem vagas disponiveis
+        return null; // Sem vagas disponíveis
     }
 
     public double retirarVeiculo(Ticket ticket) {
@@ -46,5 +46,14 @@ public class Estacionamento {
 
     public List<Ticket> getTickets() {
         return tickets;
+    }
+
+    public Ticket getTicketPorPlaca(String placa) {
+        for (Ticket ticket : tickets) {
+            if (ticket.getVeiculo().getPlaca().equals(placa) && ticket.getHoraSaida() == null) {
+                return ticket;
+            }
+        }
+        return null;
     }
 }

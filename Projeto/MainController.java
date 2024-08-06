@@ -1,3 +1,5 @@
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -7,10 +9,10 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.fxml.FXMLLoader;
+import javafx.util.Duration;
+
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 public class MainController {
@@ -51,6 +53,9 @@ public class MainController {
     @FXML
     private TableColumn<VeiculoInfo, String> colCor;
 
+    @FXML
+    private TableColumn<VeiculoInfo, String> colTempo;
+
     private ObservableList<VeiculoInfo> veiculoData = FXCollections.observableArrayList();
 
     private Estacionamento estacionamento = new Estacionamento(10); // 10 vagas
@@ -65,7 +70,23 @@ public class MainController {
         colPlaca.setCellValueFactory(new PropertyValueFactory<>("placa"));
         colModelo.setCellValueFactory(new PropertyValueFactory<>("modelo"));
         colCor.setCellValueFactory(new PropertyValueFactory<>("cor"));
+        colTempo.setCellValueFactory(new PropertyValueFactory<>("tempo"));
         tableView.setItems(veiculoData);
+
+        // Atualizar a tabela a cada segundo
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> atualizarTabela()));
+        timeline.setCycleCount(Timeline.INDEFINITE);
+        timeline.play();
+    }
+
+    private void atualizarTabela() {
+        for (VeiculoInfo info : veiculoData) {
+            Ticket ticket = estacionamento.getTicketPorPlaca(info.getPlaca());
+            if (ticket != null) {
+                info.setTempo(calcularTempoPermanencia(ticket.getHoraEntrada()));
+            }
+        }
+        tableView.refresh();
     }
 
     @FXML
@@ -94,7 +115,8 @@ public class MainController {
                         usuario.getContato(),
                         veiculo.getPlaca(),
                         veiculo.getModelo(),
-                        veiculo.getCor()
+                        veiculo.getCor(),
+                        calcularTempoPermanencia(ticket.getHoraEntrada())
                     ));
                 }
                 mostrarAlerta("Sucesso", "Veículo estacionado na vaga " + ticket.getVaga().getNumero());
@@ -232,5 +254,13 @@ public class MainController {
         alert.setHeaderText(null);
         alert.setContentText(mensagem);
         alert.showAndWait();
+    }
+
+    private String calcularTempoPermanencia(LocalDateTime horaEntrada) {
+        java.time.Duration duracao = java.time.Duration.between(horaEntrada, LocalDateTime.now());
+        long horas = duracao.toHours();
+        long minutos = duracao.toMinutes() % 60;
+        long segundos = duracao.getSeconds() % 60;
+        return String.format("%d HRS %d MIN %d SEG", horas, minutos, segundos);
     }
 }
