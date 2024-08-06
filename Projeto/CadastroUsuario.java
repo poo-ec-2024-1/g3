@@ -5,7 +5,7 @@ import java.util.Map;
 public class CadastroUsuario {
     private Map<String, Usuario> usuarios;
     private Database<Usuario> database;
-
+    //leva o cadastro para o banco de dados.
     public CadastroUsuario(String fileName) {
         database = new Database<>(fileName);
         usuarios = database.carregarDados();

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Estacionamento estacionamento = new Estacionamento(10); // 10 vagas
+        Estacionamento estacionamento = new Estacionamento(10); // 10 vagas no array list 
         CadastroUsuario cadastroUsuario = new CadastroUsuario("usuarios.dat");
         CadastroVeiculo cadastroVeiculo = new CadastroVeiculo("veiculos.dat");
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Main {
             System.out.println("5. Cadastrar Veiculo");
             System.out.println("6. Sair");
             int escolha = scanner.nextInt();
-
+            //Switch básico de escolha de opções que mostra ao usuário oq ele pode fazer, e oq acontece.
             switch (escolha) {
                 case 1:
                     System.out.println("\nDigite a placa:");

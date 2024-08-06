@@ -6,7 +6,7 @@ public class Estacionamento {
     private List<Vaga> vagas;
     private List<Ticket> tickets;
     private CalculadoraTarifa calculadoraTarifa;
-
+    //Array list que gera as vagas do estacionamento com valores de ocupado, previamente falsos.
     public Estacionamento(int numeroDeVagas) {
         vagas = new ArrayList<>();
         for (int i = 1; i <= numeroDeVagas; i++) {
@@ -25,7 +25,7 @@ public class Estacionamento {
                 return ticket;
             }
         }
-        return null; // Sem vagas disponíveis
+        return null; // Sem vagas disponiveis
     }
 
     public double retirarVeiculo(Ticket ticket) {
