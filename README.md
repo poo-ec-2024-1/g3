@@ -25,9 +25,6 @@ Desenvolver um sistema para registrar a entrada e saída dos veículos do estaci
 ### Cálculo de Tarifas
 Implementar um algoritmo para calcular automaticamente as tarifas baseadas no tempo de permanência, com possibilidade de configuração de tarifas diferenciadas para períodos distintos (horas, dias, meses).
 
-### Relatórios e Análises
-Criar relatórios detalhados sobre a utilização do estacionamento, incluindo métricas como ocupação média, tempos de permanência, receitas geradas, e identificar padrões de uso.
-
 ## Estratégias de Implementação
 ### Análise de Requisitos
 Levantar e documentar todos os requisitos funcionais e não funcionais do sistema em colaboração com os desenvolvedores do projeto.
@@ -42,5 +39,11 @@ Realizar testes extensivos em cada módulo do sistema para garantir a correção
 - **Heitor de Angelis:** Desenvolvedor frontend
 - ~~Pedro Augusto: Líder~~
 
+## Instalação da IDE 
+- Recomenda-se o uso da IDE BlueJ(utilizada no projeto). [BlueJ](https://www.bluej.org/).
+
+## Instalação do Java
+- Recomenda-se a versão "21.0.2" do Java [Java version](https://www.oracle.com/java/technologies/downloads/).
+
 ## Instalação do StarUML
-- Recomenda-se o uso do StarUML para abrir o arquivo .mdj que se refere ao diagrama de classes [link do StarUML](https://staruml.io/).
+- Recomenda-se o uso do StarUML para abrir o arquivo .mdj que se refere ao diagrama de classes, diagrama de sequência e diagramas de caso de uso. [link do StarUML](https://staruml.io/).
