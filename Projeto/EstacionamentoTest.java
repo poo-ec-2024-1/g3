@@ -14,13 +14,13 @@ public class EstacionamentoTest
 {
 
     @Test
-    public void Estacionar()
+    public void TesteGetHoraEntrada()
     {
         Estacionamento estacion1 = new Estacionamento(20);
         Moto moto1 = new Moto("KYD1234", "Bis", "Vermelha");
         Ticket ticket1 = estacion1.estacionarVeiculo(moto1);
         assertEquals(moto1, ticket1);
-        assertNotSame(1, ticket1.getHoraEntrada());
+        assertNotSame("20:20:20.2000", ticket1.getHoraEntrada());
     }
 }
 
