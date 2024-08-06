@@ -27,7 +27,7 @@
 
 ### Lista dos 3 commits, posts, documentos mais relevantes
 1. **Commit**: "Adicionando a pasta relatório dos testes"
-2. **Commit**: "Testes unitários nas classes"
+2. **Commit**: "Adicionando testes unitários.."
 3. **Commit**: "Atualizando código do backend"
 
 ### O que não deu para cumprir
