@@ -1,0 +1,215 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto
+-source
+17
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\javafx-base-20.0.1-win.jar;C:\Program Files\BlueJ\lib\javafx-base-20.0.1.jar;C:\Program Files\BlueJ\lib\javafx-controls-20.0.1-win.jar;C:\Program Files\BlueJ\lib\javafx-controls-20.0.1.jar;C:\Program Files\BlueJ\lib\javafx-fxml-20.0.1-win.jar;C:\Program Files\BlueJ\lib\javafx-fxml-20.0.1.jar;C:\Program Files\BlueJ\lib\javafx-graphics-20.0.1-win.jar;C:\Program Files\BlueJ\lib\javafx-graphics-20.0.1.jar;C:\Program Files\BlueJ\lib\javafx-media-20.0.1-win.jar;C:\Program Files\BlueJ\lib\javafx-media-20.0.1.jar;C:\Program Files\BlueJ\lib\javafx-swing-20.0.1-win.jar;C:\Program Files\BlueJ\lib\javafx-web-20.0.1-win.jar;C:\Program Files\BlueJ\lib\junit-4.12.jar;C:\Program Files\BlueJ\lib\junit-jupiter-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-api-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-params-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-commons-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-engine-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-launcher-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-suite-api-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-vintage-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\opentest4j-1.2.0.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\javafx.web.jar;C:\Users\Gabriel Camargo\Downloads\slf4j-simple-2.0.13.jar;C:\Users\Gabriel Camargo\Downloads\slf4j-api-2.0.13.jar;C:\Users\Gabriel Camargo\Downloads\ormlite-jdbc-6.1.jar;C:\Users\Gabriel Camargo\Downloads\ormlite-core-6.1.jar;C:\Users\Gabriel Camargo\Downloads\sqlite-jdbc-3.46.0.0.jar;C:\Users\Gabriel Camargo\Desktop\g3\Projeto
+-d
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-doctitle
+Projeto
+-windowtitle
+Projeto
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/17/docs/api/
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/CadastroVeiculoTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/UsuarioTeste.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/CalculadoraTarifa.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/TicketTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Usuario.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Veiculo.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/CadastroVeiculo.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Vaga.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/MainJavaFX.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/MainTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/EstacionarVeiculoController.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Estacionamento.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Database.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/EstacionamentoTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/MainController.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Moto.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Ticket.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/MotoTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Carro.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/CadastroUsuarioTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/CarroTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/CadastroUsuario.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/VagaTest.java
+C:\Users\Gabriel Camargo\Desktop\g3\Projeto/Main.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\CadastroVeiculoTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\UsuarioTeste.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\CalculadoraTarifa.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\TicketTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Usuario.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Veiculo.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\CadastroVeiculo.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Vaga.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\MainJavaFX.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\MainTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\EstacionarVeiculoController.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Estacionamento.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Database.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\EstacionamentoTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\MainController.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Moto.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Ticket.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\MotoTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Carro.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\CadastroUsuarioTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\CarroTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\CadastroUsuario.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\VagaTest.java...
+Loading source file C:\Users\Gabriel Camargo\Desktop\g3\Projeto\Main.java...
+Constructing Javadoc information...
+warning: unknown enum constant Status.STABLE
+  reason: class file for org.apiguardian.api.API$Status not found
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+Building index for all the packages and classes...
+Standard Doclet version 17.0.4.1+1
+Building tree for all the packages and classes...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\CadastroUsuario.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\CadastroUsuarioTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\CadastroVeiculo.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\CadastroVeiculoTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\CalculadoraTarifa.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Carro.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\CarroTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Database.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Estacionamento.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\EstacionamentoTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\EstacionarVeiculoController.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Main.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\MainController.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\MainJavaFX.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\MainTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Moto.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\MotoTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Ticket.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\TicketTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Usuario.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\UsuarioTeste.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Vaga.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\VagaTest.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\Veiculo.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\package-summary.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\package-tree.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\serialized-form.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\overview-tree.html...
+Building index for all classes...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\allclasses-index.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\allpackages-index.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\index-all.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\index.html...
+Generating C:\Users\Gabriel Camargo\Desktop\g3\Projeto\doc\help-doc.html...
+100 warnings
