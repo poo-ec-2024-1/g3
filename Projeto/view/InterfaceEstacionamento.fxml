@@ -25,9 +25,9 @@
                   <DropShadow />
                </effect>
             </Text>
-            <ImageView fitHeight="169.0" fitWidth="178.0" layoutX="321.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="169.0" fitWidth="178.0" layoutX="316.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../projeto%20final%20poo/1168066.png" />
+                  <Image url="@imagemestacionamento.png" />
                </image>
             </ImageView>
               <Button layoutX="622.0" layoutY="510.0" onAction="#handleEstacionarVeiculo" prefHeight="42.0" prefWidth="142.0" text="Estacionar Veículo">
